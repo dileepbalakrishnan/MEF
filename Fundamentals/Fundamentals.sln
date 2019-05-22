@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonExtensibleCar", "NonExte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibleCar", "ExtensibleCar\ExtensibleCar.csproj", "{A471E330-63B8-41A4-B77B-B07DB05B05E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Exports", "2.Exports", "{1B2693EB-D143-4981-83CD-F461168F8C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportsDemo", "ExportsDemo\ExportsDemo.csproj", "{58EFD34A-304F-444A-9708-09CC49C99BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{A471E330-63B8-41A4-B77B-B07DB05B05E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A471E330-63B8-41A4-B77B-B07DB05B05E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A471E330-63B8-41A4-B77B-B07DB05B05E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EFD34A-304F-444A-9708-09CC49C99BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EFD34A-304F-444A-9708-09CC49C99BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EFD34A-304F-444A-9708-09CC49C99BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EFD34A-304F-444A-9708-09CC49C99BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FDE1B001-D61D-485B-A8EF-B68BCCC14965} = {CD2055B6-A032-4DED-B38F-13B36ABABB70}
 		{A471E330-63B8-41A4-B77B-B07DB05B05E0} = {CD2055B6-A032-4DED-B38F-13B36ABABB70}
+		{58EFD34A-304F-444A-9708-09CC49C99BA9} = {1B2693EB-D143-4981-83CD-F461168F8C9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79ECA562-D213-4881-941D-9B192030718B}
