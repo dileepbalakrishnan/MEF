@@ -5,7 +5,7 @@ using System.Windows.Forms;
 namespace MetadataWithStrongType
 {
     [Export("Color", typeof(IMenuPlugin))]
-    [MenuPluginMetadata(MenuText = "Green")]
+    [MenuPluginMetadata("Green")]
     internal class GreenColorPlugin : IMenuPlugin
     {
         public void Transform(Label label)

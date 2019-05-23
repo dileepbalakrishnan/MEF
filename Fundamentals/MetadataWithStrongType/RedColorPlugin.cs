@@ -6,7 +6,7 @@ namespace MetadataWithStrongType
 {
     [Export("Color", typeof(IMenuPlugin))]
     //[ExportMetadata(StringConstants.MenutextKey, "Red")]
-    [MenuPluginMetadata(MenuText = "Red")]
+    [MenuPluginMetadata("Red")]
     internal class RedColorPlugin : IMenuPlugin
     {
         public void Transform(Label label)

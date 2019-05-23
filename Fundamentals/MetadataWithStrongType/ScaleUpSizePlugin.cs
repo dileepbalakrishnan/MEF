@@ -6,7 +6,7 @@ namespace MetadataWithStrongType
 {
     [Export("Size", typeof(IMenuPlugin))]
     //[ExportMetadata(StringConstants.MenutextKey, "++10")]
-    [MenuPluginMetadata(MenuText = "Size + 10")]
+    [MenuPluginMetadata("Size + 10")]
     internal class ScaleUpSizePlugin : IMenuPlugin
     {
         public void Transform(Label label)
